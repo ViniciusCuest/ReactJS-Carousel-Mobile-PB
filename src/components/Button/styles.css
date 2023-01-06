@@ -1,0 +1,29 @@
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #92E3A9;
+   width: 308px;
+   height: 54px;
+   box-shadow: 0px 4px 10px #A1C3FC;
+   outline: none;
+   border: 0;
+   border-radius: 4px;
+   margin-bottom: 30px;
+}
+
+.button.skip {
+   background-color: transparent;
+   box-shadow: none;
+}
+
+.button-title {
+   font-size: 18px;
+   color: #fff;
+   font-weight: 400;
+}
+
+.button-title.skip {
+   margin-top: 50px;
+   color: #92E3A9;
+}

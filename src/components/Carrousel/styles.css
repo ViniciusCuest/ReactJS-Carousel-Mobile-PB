@@ -1,0 +1,41 @@
+.carrousel-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+   cursor: grab;
+}
+
+.carrousel-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: -300px;
+}
+
+.carrousel-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 100vw;
+   width: auto;
+   height: 100vh;
+}
+
+.images {
+   display: flex;
+   width: 80vw;
+   align-self: center;
+}
+
+.carrousel-container::-webkit-scrollbar {
+   scroll-behavior: smooth;
+   scroll-snap-type: mandatory;
+}
+
+.carrousel-container::-webkit-scrollbar {
+   display: none;
+}

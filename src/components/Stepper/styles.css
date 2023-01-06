@@ -1,0 +1,24 @@
+.stepper {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.circle {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   border: 1px solid #000;
+}
+
+.circle + .circle {
+   margin-left: 10px;
+}
+
+.circle.active{
+   width: 14px;
+   height: 14px;
+   background-color: #92E3A9;
+   border: none;
+}
