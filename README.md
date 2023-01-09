@@ -1,8 +1,6 @@
-<center>
-   <img src="../assets/gif.gif" width='70%'/>
-</center>
-
 # Getting Started with Create React App
+
+![](https://github.com/ViniciusCuest/ReactJS-Carousel-Mobile-PB/blob/main/assets/gif.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
